@@ -1,0 +1,83 @@
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.12rem; }
+
+.view-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+  .view-shadow .header {
+    background: #000;
+    height: 0.4rem;
+    color: #fff;
+    line-height: 0.4rem; }
+    .view-shadow .header .close {
+      padding-left: 0.1rem;
+      font-size: 0.16rem; }
+    .view-shadow .header h4 {
+      display: inline-block;
+      padding-left: 0.1rem;
+      font-size: 0.14rem;
+      font-weight: normal; }
+    .view-shadow .header .more {
+      float: right;
+      padding-right: 0.1rem;
+      font-size: 0.16rem;
+      line-height: 0.4rem; }
+  .view-shadow .section {
+    -webkit-flex: 1;
+    position: relative; }
+    .view-shadow .section .content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto auto;
+      width: 90%;
+      height: 3rem;
+      background: #fff; }
+      .view-shadow .section .content .logo {
+        text-align: center;
+        padding-top: 0.1rem; }
+        .view-shadow .section .content .logo img {
+          width: 2rem; }
+      .view-shadow .section .content form {
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+        margin-top: 0.2rem; }
+        .view-shadow .section .content form p {
+          height: 0.4rem;
+          border-bottom: 1px solid #ccc;
+          margin-top: 0.1rem;
+          display: -webkit-flex;
+          padding-right: 0.1rem; }
+          .view-shadow .section .content form p img {
+            width: 0.15rem;
+            height: 0.15rem;
+            padding-left: 0.1rem;
+            padding-right: 0.1rem;
+            margin-top: 0.1rem; }
+          .view-shadow .section .content form p input {
+            -webkit-flex: 1;
+            border-width: 0; }
+          .view-shadow .section .content form p input::-webkit-input-placeholder {
+            color: #ccc; }
+        .view-shadow .section .content form .btn {
+          border-bottom: none;
+          padding-right: 0;
+          margin-top: 0.3rem; }
+          .view-shadow .section .content form .btn input {
+            background: #4cae4c;
+            color: #fff;
+            border-radius: 10px; }
+
+/*# sourceMappingURL=style.css.map */

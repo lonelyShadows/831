@@ -1,0 +1,82 @@
+body
+  position: absolute
+  top: 0
+  bottom: 0
+  width: 100%
+
+  font-size: .12rem
+.view-shadow
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background: rgba(0,0,0,.3)
+  display: -webkit-flex
+  -webkit-flex-direction: column
+  .header
+    background: #000
+    height: .4rem
+    color: #fff
+    line-height: .4rem
+    .close
+      padding-left: .1rem
+      font-size: .16rem
+    h4
+      display: inline-block
+      padding-left: .1rem
+      font-size: .14rem
+      font-weight: normal
+    .more
+      float: right
+      padding-right: .1rem
+      font-size: .16rem
+      line-height: .4rem
+  .section
+    -webkit-flex: 1
+    position: relative
+    .content
+      position: absolute
+      top: 0
+      left: 0
+      bottom: 0
+      right: 0
+      margin: auto auto
+      width: 90%
+      height: 3rem
+      background: #fff
+      .logo
+        text-align: center
+        padding-top: .1rem
+        img
+          width: 2rem
+      form
+        padding-left: .1rem
+        padding-right: .1rem
+        margin-top: .2rem
+        p
+          height: .4rem
+          border-bottom: 1px solid #ccc
+          margin-top: .1rem
+          display: -webkit-flex
+          padding-right: .1rem
+          img
+            width: .15rem
+            height: .15rem
+            padding-left: .1rem
+            padding-right: .1rem
+            margin-top: .1rem
+          input
+            -webkit-flex: 1
+            border-width: 0
+          input::-webkit-input-placeholder
+            color: #ccc
+        .btn
+          border-bottom: none
+          padding-right: 0
+          margin-top: .3rem
+          input
+            background: #4cae4c
+            color: #fff
+            border-radius: 10px
+
